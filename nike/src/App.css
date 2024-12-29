@@ -1,0 +1,22 @@
+.navbar{
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 72px;
+  align-items: center;
+  gap:10px
+}
+.navlist{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  cursor: pointer;
+}
+.button{
+  background-color: rgb(243, 9, 9);
+  color: rgb(245, 241, 241);
+  width: 74px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
