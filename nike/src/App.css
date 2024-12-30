@@ -11,12 +11,51 @@
   list-style: none;
   gap: 30px;
   cursor: pointer;
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 .button{
   background-color: rgb(243, 9, 9);
   color: rgb(245, 241, 241);
-  width: 74px;
+  width: 100px;
   height: 30px;
   border-radius: 5px;
   cursor: pointer;
+}
+.container{
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  
+  justify-content: center;
+}
+.details{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+ 
+}
+.heading{
+  font-size:108px ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 90px;
+  margin-bottom: 0;
+}
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttons{
+  display: flex;
+  gap: 10px;
+}
+.button2{
+  width: 100px;
+  cursor: pointer;
+}
+.logoes{
+  display: flex;
+  gap: 10px;
+}
+.shoe{
+  padding: 50px;
 }
